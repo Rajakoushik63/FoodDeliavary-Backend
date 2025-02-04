@@ -18,4 +18,4 @@ orderRouter.post("/status", updateStatus);
 orderRouter.post("/verify", verifyOrder);
 orderRouter.post("/placecod", authMiddleware, placeOrderCod);
 
-export default orderRouter;
+export default orderRouter; 

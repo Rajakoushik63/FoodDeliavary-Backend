@@ -143,7 +143,7 @@ import dotenv from "dotenv";
 dotenv.config();
 
 // Initialize Stripe with test API key
-const stripe = new Stripe(process.env.STRIPE_TEST_SECRET_KEY);
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
 
 // config variables
 const currency = "inr";
